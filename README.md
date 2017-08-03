@@ -1,4 +1,4 @@
-# Embedded UI add-on example
+# Embedded UI add-on with Spring boot
 
 This example is in the purpose of reproducing the issue explained in [this thread](https://stackoverflow.com/questions/45465131).
 

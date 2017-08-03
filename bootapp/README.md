@@ -7,7 +7,7 @@ The tutorial can be found [here](https://vaadin.github.io/spring-tutorial/).
 
 ## Running the project from command line
 
-Run `mvn clean install spring-boot:run` in the project root directory. After the server has started point your browser to [http://localhost:8080](http://localhost:8080) to see the resulting application.
+Run `mvn clean install spring-boot:run` in the project root directory. After the server has started point your browser to [http://localhost:9030](http://localhost:9030) to see the resulting application.
 
 ## Running the project from your IDE
 
