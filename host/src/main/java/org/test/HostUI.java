@@ -20,14 +20,8 @@ public class HostUI extends UI {
     protected void init(VaadinRequest vaadinRequest) {
         VaadinUIComponent ui1 = new VaadinUIComponent("http://localhost:9030");
         ui1.setSizeFull();
-        
-//		VaadinSession session = ui1.getUI().getSession();
-//		LoggerFactory.getLogger(HostUI.class).debug((session ==null  )? "empty" :"notempty");
-//        VaadinService service = session.getService();
-//        @SuppressWarnings("unused")String path = service.getBaseDirectory().getAbsolutePath();
-//        LoggerFactory.getLogger(HostUI.class).debug((path ==null || path.isEmpty())? "empty" :path);
-        
-        VaadinUIComponent ui2 = new VaadinUIComponent("http://localhost:9020");
+    
+        VaadinUIComponent ui2 = new VaadinUIComponent("http://localhost:9002");
         ui2.setSizeFull();
         
         HorizontalSplitPanel split = new HorizontalSplitPanel(ui1, ui2);

@@ -29,3 +29,12 @@ mvn jetty:run
 ```
 
 Point your browser to <http://localhost:8080> and see how the vaadin `embdded2` application is rendered, but `bootapp` doesn't load due to the issue explained in the thread.
+
+
+
+## Known issues 
+
+Application `bootapp` needs to have a session id in order to properly be embedded. This will be updated soon.  
+
+
+
